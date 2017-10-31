@@ -1,4 +1,5 @@
 body{
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
    font-family: monserrat,lato;
    box-sizing: border-box;
    color:#2c3e50,#18bc9c,#212529;
@@ -16,7 +17,7 @@ body{
   height: 10%;
   background:#2c3e50;
   padding-top: 2%;
-  padding-bottom: 4%;
+  padding-bottom: 2%;
   color:white;
   padding-left: 12%;
   position: fixed;
@@ -69,7 +70,7 @@ display: inline-block;
 position:relative;
 width: 100%;
 top: 160px;
-left:  550px;
+left:  505px;
 padding-bottom: 200px;
 }
 /*damos tipo de letra tamaño y le indicamos que se han mayusculas*/
@@ -86,6 +87,7 @@ color:white;
 top: 450px;
 /*outline: 4px solid red;*/
 }
+
 .section2 h2{
   display: inline-block;
     position: absolute;
@@ -241,23 +243,22 @@ line-height: 40px;
 /*bottom: 50px;*/
 }
 .date li {
-width: 100%;
+width: 65%;
 color: #868E96;
 /*outline: 1px solid red;*/
 left: 285px;
 font-size: 1.6em;
 margin-left: 0;
-margin-right: 0;
 bottom:  60px;
 }
 .line{
-/*right: 285px;*/
-
+  width: 63%;
 margin-left:325px;
 bottom: 6%;
 padding-top: 8%;
+border-bottom: : 0;
 border-left: 0;
-
+border-right: : 0;
 }
 .botom2{
 display: inline-block;
@@ -282,48 +283,55 @@ padding-top: 3%;
 }
 .section6 h1{
 display:inline-block;
-font-size: 1.8em;
+font-size: 1.6em;
 padding: 0;
-margin-left:260px;
+margin-left:195px;
+padding-right: 1px;
 }
-.section7 {
+
+.section7 p{
   display: inline-block;
-  font-size: 1.8em;
+  font-size: 1.3em;
   padding: 0;
-  margin-left:260px;
-  outline: 1px solid red;
+  margin-left:155px;
+  /*outline: 1px solid red;*/
   background:#2c3e50;
   color: white;
-
+  text-align: center;
   }
-  /*position: relative;*/
-  /*float: left;*/
+  /*Dando estilo a nuestros iconos tamaño borde posicion*/
+  .section7 p span{
+    display: inline-block;
+    padding-left: 4px;
+    padding-right: 3px;
+    margin-left: 4px;
+    margin-right: 8px;
+    font-size: 16px;
+    line-height: 42px;
+    width: 30px;
+    height: 35px;
+    text-align: center;
+    border: 3px solid #fff;
+    border-radius: 100%;
+  }
+  /*indicamos que cuando pase el puntero del mouse cambie el color de fondo a blanco y el color de letra a verde*/
+  .section7 span:hover{
+    background: white;
+    color:#18bc9c;
+  }
+  /*creamos un enlace y le quitamos el subrayado y el color propio del navegador*/
+    .section7 p a{
+      list-style: none;
+      text-decoration: none;
+      color:#18bc9c;
 
-  /*font-size: 1.5em;
-  padding: 0;*/
-  /*margin-left:280px;*/
-
-/*.section7 p{
-  display: inline-block;
-  font-size: 1.5em;
-  padding: 0;
-  margin-left:50px;
 }
-
-.icons i{
-  display: inline-block;
+/*ubicando el footer y dandole medidas*/
+.section7 p1{
+  display:block;
   width: 100%
-  heigth:20%
-  color: whhite;
-  font-size: 2em;
-  outline:1px solid red;
-left: 250px;
-
-}*/
-
-/*.section6 p2{
-  display: inline-block;
-  font-size: 1.5em;
-  padding: 0;
-  margin-left:280px;
-}*/
+  heigt:5%
+  outline: 1px solid red;
+  text-align: center;
+  padding-top: 60px;
+}
